@@ -1,0 +1,143 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: black;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header {
+  height: 100vh;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+} */
+
+nav {
+  display: inline-flex;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+}
+
+nav img {
+  height: 50px;
+  margin: 10px;
+}
+
+nav ul {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+
+.header {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 95%;
+  height: 700px;
+  margin: 0 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h2,
+.header h4 {
+  background-color: black;
+  margin-top: 10px;
+}
+
+.monthly-tea {
+  width: 80%;
+  margin: 3% 10%;
+}
+
+.monthly-tea h2,
+.monthly-tea h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.monthly-tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.monthly-tea .teas {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.monthly-tea figure {
+  margin: 10px;
+}
+
+.monthly-tea figcaption {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.location-container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 95%;
+  height: 700px;
+  margin: 0 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-container .locations {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.location-container .location {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: 15px 40px;
+  text-align: center;
+}
+
+.location-container h3,
+.location-container p {
+  padding-top: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h3 {
+  padding-top: 20px;
+}
+
+footer #email {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+footer #copyright {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
